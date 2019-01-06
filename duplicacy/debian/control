@@ -1,0 +1,14 @@
+Source: duplicacy
+Section: non-free/net
+Priority: extra
+Maintainer: Acrobits LLC <support2015@acrosync.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.8
+Homepage: https://github.com/gilbertchen/duplicacy/
+
+Package: duplicacy
+Architecture: any
+Depends: ${misc:Depends}, readynasos (>= 6.7.0)
+Description: ReadyNAS package for Duplicacy App
+ Duplicacy is a new generation cross-platform cloud backup tool based on
+ the idea of Lock-Free Deduplication.

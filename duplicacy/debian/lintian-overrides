@@ -1,0 +1,8 @@
+# Overrides for ReadyNAS packaging
+duplicacy: non-standard-toplevel-dir
+duplicacy: file-in-unusual-dir
+duplicacy: non-etc-file-marked-as-conffile
+duplicacy: maintainer-script-calls-systemctl
+
+# Nothing we can do about these, since they're upstream
+duplicacy: statically-linked-binary

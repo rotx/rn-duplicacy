@@ -1,0 +1,15 @@
+<Application resource-id="duplicacy">
+  <Category>APP_CAT_NETWORK_OTHER</Category>
+  <Name>Duplicacy</Name>
+  <Author>Acrosync LLC</Author>
+  <MinFirmwareVer>6.9.0</MinFirmwareVer>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL/>
+  <InfoURL>https://github.com/gilbertchen/duplicacy/</InfoURL>
+  <LicenseInfo>https://github.com/gilbertchen/duplicacy/blob/master/LICENSE.md</LicenseInfo>
+  <ReservePort/>
+  <DebianPackage>duplicacy</DebianPackage>
+  <ServiceName>fvapp-duplicacy.timer</ServiceName>
+  <Description lang="en-us">Latest Duplicacy version for ReadyNAS.</Description>
+</Application>

@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily duplicacy backup and prune
+
+[Timer]
+OnCalendar=*-*-* 3:00
+RandomizedDelaySec=90m
+Persistent=true
+
+[Install]
+WantedBy=timers.target

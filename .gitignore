@@ -1,0 +1,16 @@
+# For all debs
+*/debian/debhelper-build-stamp
+*/debian/*.debhelper.log
+*/debian/*.substvars
+*/debian/files
+# This file is auto-generated
+*/debian/changelog
+# Current directory only
+/*.build
+/*.buildinfo
+/*.changes
+/*.deb
+
+# Build specific
+duplicacy/debian/duplicacy
+duplicacy/files/apps/duplicacy/bin/duplicacy

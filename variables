@@ -1,0 +1,7 @@
+PACKAGE=duplicacy
+VERSION=`cat VERSION`
+ORIGIN="https://github.com/gilbertchen/duplicacy/releases"
+ARCH=arm
+TARGET=armel
+FILENAME="duplicacy_linux_${ARCH}_${VERSION}"
+DOWNLOAD="${ORIGIN}/download/v${VERSION}/${FILENAME}"

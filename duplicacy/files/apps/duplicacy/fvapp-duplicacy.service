@@ -1,0 +1,10 @@
+[Unit]
+Description=Daily duplicacy backup and prune
+ConditionACPower=true
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/apps/duplicacy/bin/run-duplicacy.sh
+
